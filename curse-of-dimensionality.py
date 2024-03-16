@@ -1,8 +1,9 @@
 import subprocess
-import os
 
+# Ejecutar el programa C++
 cpp_executable = 'distance-generator.exe'
 subprocess.run([cpp_executable])
 
+# Ejecutar el cuaderno de Jupyter usando Python como módulo
 notebook_file = 'graphics.ipynb'
-subprocess.run(['jupyter', 'nbconvert', '--to', 'notebook', '--execute', notebook_file])
+subprocess.run(['python', '-m', 'notebook', notebook_file])

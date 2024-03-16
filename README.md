@@ -1,1 +1,3 @@
-"# Maldicion-de-la-dimensionalidad" 
+# Maldición de la dimensionalidad
+
+La maldición de la dimensionalidad se refiere a la dificultad de tratar conjuntos de datos con una alta dimensionalidad (atributos o carácteristicas), ya que esto provoca una serie de desafios: Una difusión en los datos entre más dimensiones posean, un mayor consumo de memoria y recursos para ser tratados aumentando la complejidad computacional y una dificultad para visualizarlos e interpretar.
